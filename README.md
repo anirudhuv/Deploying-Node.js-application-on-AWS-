@@ -1,7 +1,7 @@
 # Deploying-Node.js-application-on-AWS-
 
 
-## **📌 Overview**
+## ** Overview**
 This project demonstrates how to deploy a **Node.js–based web application** on AWS using a secure and production-style architecture.
 
 - The application runs on **EC2 instances in private subnets** and is exposed to users through an **internet-facing Application Load Balancer (ALB)**.
@@ -10,7 +10,7 @@ This project demonstrates how to deploy a **Node.js–based web application** on
 
 ---
 
-## **🏗 Architecture Overview**
+## ** Architecture Overview**
 The Node.js application is deployed using a **multi-tier AWS VPC architecture**:
 
 - **Custom VPC** with public and private subnets  
@@ -25,7 +25,7 @@ The Node.js application is deployed using a **multi-tier AWS VPC architecture**:
 <img width="602" height="601" alt="VPC drawio" src="https://github.com/user-attachments/assets/d578e054-6545-4674-a999-4e0963c449cf" />
 
 
-## **⚙️ AWS Services Used**
+## ** AWS Services Used**
 - **Amazon VPC** – Network isolation and routing  
 - **Amazon EC2** – Hosts the Node.js application  
 - **Application Load Balancer (ALB)** – Routes user traffic to EC2 instances  
@@ -47,7 +47,7 @@ The Node.js application is deployed using a **multi-tier AWS VPC architecture**:
 
 ---
 
-## **🔐 Security Implementation**
+## ** Security Implementation**
 - EC2 instances **do not have public IP addresses**  
 - RDS database is **not publicly accessible**  
 - Only the **ALB is exposed to the internet**  
@@ -56,7 +56,7 @@ The Node.js application is deployed using a **multi-tier AWS VPC architecture**:
   - EC2 → RDS (PostgreSQL port)  
 - No SSH access; EC2 instances are managed using **AWS Systems Manager**  
 
-### **📷 Screenshots to Attach**
+### ** Screenshots to Attach**
 - ALB target group showing **Healthy status**  
 - EC2 instances running in **private subnets**  
 - RDS configuration showing **Not publicly accessible**  
@@ -65,7 +65,7 @@ The Node.js application is deployed using a **multi-tier AWS VPC architecture**:
 
 ---
 
-## **🔮 Future Improvements**
+## **Future Improvements**
 - Add **Auto Scaling Group** for EC2 instances  
 - Enable **HTTPS using ACM**  
 - Configure **RDS Multi-AZ**  
