@@ -56,12 +56,20 @@ The Node.js application is deployed using a **multi-tier AWS VPC architecture**:
   - EC2 → RDS (PostgreSQL port)  
 - No SSH access; EC2 instances are managed using **AWS Systems Manager**  
 
-###  Screenshots to Attach
-- ALB target group showing **Healthy status**  
-- EC2 instances running in **private subnets**  
+## Project Screenshots
+- ALB target group showing Healthy status
+<img width="1260" height="602" alt="image" src="https://github.com/user-attachments/assets/2c3120ae-c0f4-4d9b-805e-e985418f39a9" />
+
+-Subnets
+<img width="1678" height="328" alt="image" src="https://github.com/user-attachments/assets/e6f46c5c-604a-46db-8cb2-83d09a4f5541" />
+
+- EC2 instances running in private subnets
+- <img width="1357" height="195" alt="image" src="https://github.com/user-attachments/assets/1175907b-b462-479f-a77a-cd1a1cc6a69a" />
+
 - RDS configuration showing **Not publicly accessible**  
-- Security group inbound rules  
-- SSM session access to EC2  
+<img width="1667" height="582" alt="image" src="https://github.com/user-attachments/assets/42427ebd-d771-4ce0-b962-8b78bfb570b7" />
+
+  
 
 ---
 
