@@ -77,4 +77,4 @@ The Node.js application is deployed using a **multi-tier AWS VPC architecture**:
 - Add **Auto Scaling Group** for EC2 instances  
 - Enable **HTTPS using ACM**  
 - Configure **RDS Multi-AZ**  
-- Store secrets using **AWS Systems Manager Parameter Store** 
+
